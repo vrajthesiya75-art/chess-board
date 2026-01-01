@@ -1,0 +1,30 @@
+     body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+
+     
+      .chessboard {
+        display: grid;
+        grid-template-columns: repeat(8,1fr);
+        min-height: 90vh;
+        min-width: 90vw;
+        max-width: 500vw;
+        max-height: 500vh;
+      }
+      .box {
+        height: 100%;
+        width: 100%;
+      }
+
+      .white {
+        background-color: white;
+        border: 1px solid black;
+       
+      }
+      .black {
+        background-color: black;
+        border: 1px solid black;
+    }
